@@ -21,8 +21,8 @@ wget the rpm and installed it
 Enable and start service
 
 ```
-[root@nimbus-comp03 ~]# systemctl enable docker
-[root@nimbus-comp03 ~]# systemctl start docker
+[root@comp ~]# systemctl enable docker
+[root@comp ~]# systemctl start docker
 ```
 
 Get nova-docker from github
