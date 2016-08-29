@@ -1,5 +1,5 @@
 # Summary
 
-* [Overview](docs/Overview.md)
-* [Installation and configuration manual](install.md)
-* [Administration and usage manual](admin.md)
+* [Overview](docs/overview.md)
+* [Installation and configuration manual](docs/install.md)
+* [Administration and usage manual](docs/admin.md)
