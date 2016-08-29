@@ -16,4 +16,5 @@ driver) and using Docker. In both cases containers are treated as lightweight
 virtual machines, offering similar isolation to traditional VMs but using the
 same kernel as the host.
 
-This document provides information about installation 
+This document provides information about installation, configuration and
+usage of **nova-docker**.
