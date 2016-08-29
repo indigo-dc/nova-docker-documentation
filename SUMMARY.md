@@ -6,6 +6,8 @@ organization is located here:
 
 * https://github.com/indigo-dc/nova-docker-packaging
 
-* [Overview](docs/overview.md)
-* [Installation and configuration manual](docs/install.md)
-* [Administration and usage manual](docs/admin.md)
+## Table of Contents
+
+1. [Overview](docs/overview.md)
+2. [Installation and configuration manual](docs/install.md)
+3. [Administration and usage manual](docs/admin.md)
