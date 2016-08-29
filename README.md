@@ -12,5 +12,9 @@ Apache v2
 
 ## Author Information
 
-Mario David: mariojmdavid@gmail.com
-LIP and Indigo-DataCloud project
+[Indigo-DataCloud project](https://www.indigo-datacloud.eu/)
+
+* Mario David (LIP): mariojmdavid@gmail.com
+* Alvaro Lopez (IFCA/CSIC): aloga@ifca.unican.es
+* Alvise Dorigo (INFN-Padova): alvise.dorigo@pd.infn.it
+
