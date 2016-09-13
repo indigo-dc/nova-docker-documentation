@@ -5,12 +5,12 @@ Test of nova-docker on Liberty platform
 NGINX Simple WEB Server image:
 ------------------------------ 
 
-docker pull nginx
-docker save nginx | glance image-create --container-format=docker --disk-format=raw --name nginx
+* docker pull nginx
+* docker save nginx | glance image-create --container-format=docker --disk-format=raw --name nginx
 
 (Please remember that the argument of --name *MUST BE EQUAL* to the name of the related docker image)
 
-nova boot --flavor m1.small --image nginx --key-name mykey --availability-zone nova:<DOCKER-ENABLED-COMPUTE-NODE> --nic net-id=<NETWORK-ID> test-nginx
+* nova boot --flavor m1.small --image nginx --key-name mykey --availability-zone nova:<DOCKER-ENABLED-COMPUTE-NODE> --nic net-id=<NETWORK-ID> test-nginx
 
 It's about a simple WEB Server which can be connected to:
 
