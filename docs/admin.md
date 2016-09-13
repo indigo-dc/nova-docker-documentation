@@ -15,6 +15,7 @@ NGINX Simple WEB Server image:
 It's about a simple WEB Server which can be connected to:
 
 * `ip netns exec qrouter-<PROPERNAMESPACE> curl http://192.168.1.10`
+`
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,7 +41,7 @@ Commercial support is available at
 <p><em>Thank you for using nginx.</em></p>
 </body>
 </html>
-
+`
 DISVIS Indigo Cloud image:
 --------------------------
 \# docker pull indigodatacloudapps/disvis
