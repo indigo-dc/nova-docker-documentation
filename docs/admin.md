@@ -4,6 +4,7 @@ Test of nova-docker on Liberty platform
 
 NGINX Simple WEB Server image:
 ------------------------------ 
+
 # docker pull nginx
 # docker save nginx | glance image-create --container-format=docker --disk-format=raw --name nginx
 
