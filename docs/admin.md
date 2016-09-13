@@ -27,7 +27,7 @@ DISVIS Indigo Cloud image:
 Check that the DISVIS container is running by trying a connection to its sshd server:
 
 * ip netns exec qrouter-<PROPERNAMESPACE> telnet 192.168.1.11 22
-* 
+
 Trying 192.168.1.11...
 Connected to 192.168.1.11.
 Escape character is '^]'.
