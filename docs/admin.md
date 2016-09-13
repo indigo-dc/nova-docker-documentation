@@ -28,7 +28,7 @@ Check that the DISVIS container is running by trying a connection to its sshd se
 
 * ip netns exec qrouter-<PROPERNAMESPACE> telnet 192.168.1.11 22
 
-Trying 192.168.1.11...
+``Trying 192.168.1.11...
 Connected to 192.168.1.11.
 Escape character is '^]'.
-SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1
+SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.1``
