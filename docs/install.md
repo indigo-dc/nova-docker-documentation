@@ -27,6 +27,11 @@ systemctl status docker
 Additional or modified configuration for the nova-docker steps are explained in
 the sections below.
 
+As nova needs to spawn docker containers, the nova user must be in the docker group; hence execute the command:
+```bash
+usermod -aG docker nova
+```
+
 ## Installation
 
 Indigo-DataCloud 1st release components are supported in Centos7 and Ubuntu 14.04.
