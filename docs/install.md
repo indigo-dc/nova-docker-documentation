@@ -32,6 +32,12 @@ As nova needs to spawn docker containers, the nova user must be in the docker gr
 usermod -aG docker nova
 ```
 
+We've noticed some problem during nova-docker plugin's start. If an error like this
+```
+ImportError: No module named docker
+```
+please try to install the package ```python-docker``` and retry.
+
 ## Installation
 
 Indigo-DataCloud 1st release components are supported in Centos7 and Ubuntu 14.04.
