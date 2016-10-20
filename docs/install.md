@@ -32,7 +32,7 @@ As nova needs to spawn docker containers, the nova user must be in the docker gr
 usermod -aG docker nova
 ```
 
-We've noticed some problem during nova-docker plugin's start. If an error like this
+We've noticed some problem during ```nova-docker``` plugin's start. If an error like this occurs
 ```
 ImportError: No module named docker
 ```
