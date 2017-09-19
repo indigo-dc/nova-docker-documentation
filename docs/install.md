@@ -120,6 +120,21 @@ Restart the nova compute service
 systemctl restart openstack-nova-compute
 ```
 
+On OpenStack Newton, the `openstack-nova-compute` service might fail to
+start with an error like this:
+
+```
+ImportError: No module named novadocker.virt.docker
+```
+
+In this case it is necessary to manually create a link with the following command:
+
+```bash
+ln -s -t /usr/lib/python2.7/site-packages/nova/virt /usr/lib/python2.7/site-packages/novadocker
+```
+
+and restart the `openstack-nova-compute` service.
+
 ### Glance service
 
 In the machine where you are running the **glance service**, it needs to be
