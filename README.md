@@ -1,4 +1,4 @@
-# OpenStack nova-docker
+# (DEPRECATED) OpenStack nova-docker
 
 ## [Overview](docs/overview.md)
 
